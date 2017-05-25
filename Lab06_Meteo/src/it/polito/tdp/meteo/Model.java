@@ -27,7 +27,7 @@ public class Model {
 		}
 
 		public static Months fromInt(int i) {
-			return ss.get(i - 1);
+			return ss.get(i-1);
 		}
 
 		public int value() {
